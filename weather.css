@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    color:
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height:100vh;
+     font-size: 110%;
+     background:#222;
+     background-image:url('https://source.unsplash.com/1600x900/?landscape');
+}
+.card
+  { 
+    border-radius:11%;
+    background: #000000d0;
+    color:#fff;
+    padding:2em;
+    width:100%;
+    max-width: 420px;
+    margin:0.7em;
+    
+  }
+  .searchbar
+  {
+    display:flex;
+    justify-content: center;
+    
+  }
+  #search
+  {
+    margin-bottom: 1em;
+  }
+  #search input
+  {
+   font-size: 110%;
+   border-radius: 24px;
+   border:none;
+   outline:none;
+   padding:0.5em 1em;
+   background: #7c7c7c2b;
+   color:white;
+   font-family: 'Open Sans', sans-serif;
+   
+  }
+  #search button  
+  { 
+    margin:0.5em;
+    background: #7c7c7c2b;
+    color:white;
+    cursor:pointer;
+    transition:0.2s ease-in-out;
+    border-radius: 50%;
+    padding:0.3em;
+    margin:0.2em;
+    outline:none;
+    width:46px;
+    height:46px;
+    border:none;
+  }
+  button:hover
+  {
+    cursor: pointer;
+    background:white;
+  }
+  .temperature
+  {
+    margin-top: 1em;
+    
+  }
+  .weather-info
+  {
+    line-height: 2rem;
+  }
+  .info
+  {
+    line-height: 1.45em;
+  }
+  .weather-conditions
+  {
+    text-transform: capitalize;
+  }
+  .flex
+  {
+    display:flex;
+    align-items: center;
+  }
